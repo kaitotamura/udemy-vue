@@ -1,4 +1,4 @@
 module.exports = {
-    publicPath: './udemy-vue',
+    publicPath: './https://kaitotamura.github.io/udemy-vue',
     outputDir: 'docs/', 
   }
