@@ -1,0 +1,26 @@
+name: staging deploy to S3 s3://reitdb-select-test
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  create-pre-release-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+ 
+
+
+     
+
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-file
+          path: src/App.vue
+            
+ 
